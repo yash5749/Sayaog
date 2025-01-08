@@ -149,12 +149,12 @@ nav{
 }
 
 /* Donation Section */
-.don-sec{
+.don-sec {
     background-color: #e6edff;
     padding: 150px 0;
 }
 
-.don-sec .don-box{
+.don-sec .don-box {
     margin: 50px 0;
     background-color: #fff;
     padding: 50px;
@@ -162,22 +162,27 @@ nav{
     border-radius: 5px;
     box-shadow: 0 0 15px #b4afaf;
     transition: all 1s;
+    height: 350px;  /* Set a fixed height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Center content vertically */
+    align-items: center;  /* Center content horizontally */
 }
 
-.don-sec .don-box img{
+.don-sec .don-box img {
     width: 70px;
     transition: all 1s;
 }
 
-.don-sec .don-box h3{
+.don-sec .don-box h3 {
     margin: 15px 0 10px;
 }
 
-.don-sec .don-box p{
+.don-sec .don-box p {
     margin-bottom: 25px;
 }
 
-.don-sec .don-box:hover img{
+.don-sec .don-box:hover img {
     transform: scale(1.1);
 }
 
